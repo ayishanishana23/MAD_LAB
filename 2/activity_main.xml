@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/etName"
+        android:hint="Enter Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/etMark1"
+        android:hint="Enter Mark 1"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/etMark2"
+        android:hint="Enter Mark 2"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/etMark3"
+        android:hint="Enter Mark 3"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/etMark4"
+        android:hint="Enter Mark 4"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:text="Submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
