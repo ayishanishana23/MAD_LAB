@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN PAGE"
+        android:textSize="50dp"
+        android:id="@+id/text"
+       />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/user"
+        android:hint="username"
+        android:layout_below="@+id/text"
+        android:layout_marginTop="50dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:hint="email"
+        android:layout_below="@+id/user"
+        android:layout_marginTop="50dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phone"
+        android:hint="phone"
+        android:layout_below="@+id/email"
+        android:layout_marginTop="50dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pass1"
+        android:hint="password"
+        android:layout_below="@+id/phone"
+        android:layout_marginTop="50dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pass2"
+        android:hint="confirm password"
+        android:layout_below="@+id/pass1"
+        android:layout_marginTop="50dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/submit"
+        android:text="submit"
+        android:layout_below="@id/pass2"
+        android:layout_marginTop="50dp"
+        />
+
+</RelativeLayout>
