@@ -11,6 +11,9 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="User Details"
+        android:textSize="50dp"
+        android:id="@+id/text"
         />
 
     <TextView
